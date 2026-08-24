@@ -1,0 +1,22 @@
+{
+  "name": "\ud83d\udd25 REDX MINI BOT PAIR \ud83d\udd25",
+  "description": "SESSION ID GENERATOR FOR REDX MINI BOT",
+  "logo": "",
+  "repository": "https://github.com/abdulrehmanrajpoot/redx-mini-bot",
+  "keywords": [
+    "@RedxMiniBot"
+  ],
+  "success_url": "/",
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest"
+    }
+  ],
+  "env": {
+    "MESSAGE": {
+      "description": "Msg Attached With Session ID",
+      "value": "\ud83d\udd30 BY || REDX MINI BOT || DEVELOPER: ABDUL REHMAN RAJPOOT \ud83d\udd30",
+      "required": false
+    }
+  }
+}
